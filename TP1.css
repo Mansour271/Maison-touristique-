@@ -1,0 +1,136 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+font-family: sans-serif ;
+padding: 0;
+margin:0;
+}
+
+ul{
+padding: 0;
+margin:0;
+}	
+
+li {
+list-style: none;
+}
+
+h2{
+ text-transform: uppercase;
+ text-align: center;
+ padding-top: 30px;
+ font-size: 2em;
+}
+
+a{
+text-decoration: none;
+color: black;	
+}
+.Corps{
+	background-color: #FFFAE1;
+	padding: 10px 0px 100px 0;
+}
+/***********************************NAVBAR**********************/
+
+nav{
+overflow: hidden;
+background-color: #FFFAE1;
+position: fixed;
+width: 100%;
+opacity: 0.9;
+}
+ul li{
+float: right;
+font-size: 1.2em;
+}
+ul li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+.logo{
+font-family: sans-serif ;
+font-weight: bold;
+float: left;
+}
+.image{
+	background: url("etoile.jpg");
+	border-radius: 10px;
+}
+/************************footer**********************************/
+
+footer{
+	background-color: #524A3A;
+	color: #FFFAE1;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+
+form{
+	margin: 0 auto;
+	max-width:900px;
+}
+
+input,textarea,button{
+	border: none ;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 1px ;
+	font-size: 1.2em;
+	border-radius: 8px;
+}
+
+textarea{
+	height: 120px;
+}
+
+button{
+	font-size: 1.5em;
+	background-color: blue;
+}
+
+button:hover{
+	background-color: red;
+	color: #FFFAE1;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+}
+
+#deuxiemeTrait{
+	height: 2px;
+	width: 75%;
+	background-color: #FFFAE1;
+	margin: 60px auto;
+}
+ .copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+ }
+
+ .copyright{
+ 	width: 50%;
+ 	text-align: left;
+ 	color: #FFFAE1;
+ }
+   
+ .icon{
+ 	width: 95%;
+ 	text-align: right;
+ }
+
+.icon a{
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 1.03em;
+	color: #FFFAE1;
+}
+
+.icon a:hover{
+	transform: scale(1.5);
+	transition: 0.5s;
+}
